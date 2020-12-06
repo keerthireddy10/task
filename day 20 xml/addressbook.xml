@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE address[
+<!ELEMENT address  (personname,homeaddress,telphone,email,birthdate)>
+<!ELEMENT personname (#PCDATA)>
+<!ELEMENT homeaddress (#PCDATA)>
+<!ELEMENT telphone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT birthdate (#PCDATA)>
+]>
+<address>
+	<personname>abcd</personname>
+	<homeaddress>nellore</homeaddress>
+	<telphone>9665743457</telphone>
+	<email>aaaaa@bbb.com</email>
+	<birthdate>10-12-1999</birthdate>
+</address>

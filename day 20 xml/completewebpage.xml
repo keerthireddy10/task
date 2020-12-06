@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collegewebpage [
+<!ELEMENT collegewebpage (home,departments,examinations,placements,surveyforms)+>
+<!ELEMENT home (#PCDATA)>
+<!ELEMENT departments (ece,eee,cse,mech)>
+<!ELEMENT ece (#PCDATA)>
+<!ELEMENT eee (#PCDATA)>
+<!ELEMENT cse (#PCDATA)>
+<!ELEMENT mech (#PCDATA)>
+<!ELEMENT  examination(examcalendar,results,questionpapers)>
+<!ELEMENT examcalendar (#PCDATA)>
+<!ELEMENT results (#PCDATA)>
+<!ELEMENT questionpapers (#PCDATA)>
+<!ELEMENT placements (yearwise,companywise,staff)>
+<!ELEMENT yearwise (#PCDATA)>
+<!ELEMENT companywise (#PCDATA)>
+<!ELEMENT staff (#PCDATA)>
+<!ELEMENT surveyforms (ab_survey,transport_survey)>
+<!ELEMENT ab_survey (#PCDATA)>
+<!ELEMENT transport_survey (#PCDATA)>
+]>

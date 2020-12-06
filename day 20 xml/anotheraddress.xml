@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE anotheraddress [
+<!ELEMENT anotheraddress (name+)>
+<!ELEMENT name EMPTY>
+<!ATTLIST name firstname CDATA #REQUIRED>
+<!ATTLIST name lastname CDATA #REQUIRED>
+<!ATTLIST name type CDATA #FIXED "SMALL">
+<!ATTLIST name character CDATA #IMPLIED>
+]>
+
+<anotheraddress>
+<name firstname="kr" lastname="vr" character="c"></name>
+</anotheraddress>

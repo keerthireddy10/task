@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE advaddress [
+<!ELEMENT advaddress (name,address,email,company)>
+<!ELEMENT name (firstname,lastname)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT address (street,dno,zip,country)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT dno (#PCDATA)>
+<!ELEMENT zip (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT company (companyname,websites)>
+<!ELEMENT companyname (#PCDATA)>
+<!ELEMENT websites (wname,siteaddress)>
+<!ELEMENT wname (#PCDATA)>
+<!ELEMENT siteaddress (#PCDATA)>
+]>
+<advaddress>
+<name>
+<firstname>keerthi</firstname>
+<lastname>reddy</lastname>
+</name>
+<address>
+<street>ramalayam</street>
+<dno>5/456/45</dno>
+<zip>523698</zip>
+<country>India</country>
+</address>
+<email>aaaaa@hello.com</email>
+<company>
+<companyname>abc technology</companyname>
+<websites>
+<wname>www.hcltech.com</wname>
+<siteaddress>192.36.25.38</siteaddress>
+</websites>
+</company>
+</advaddress>
